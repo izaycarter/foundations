@@ -1,0 +1,63 @@
+.nav{
+    display: inline-block;
+}
+
+.item{
+    display:inline-block;
+}
+
+.nav-right{
+    float:right;
+    margin-right: 10px;
+}
+
+.product-ad{
+    background:linear-gradient(90deg, rgba(223,4,120,1) 26%, rgba(255,0,0,1) 100%);
+    height:400px;
+}
+.float-right{
+    color: white;
+    margin-right: 60px;
+}
+
+.bigShoe{
+    margin-left: 200px;
+}
+.shoe1{
+    height: 300px;
+    margin-left: 200px;
+    padding-right: 60px;
+    float:left;
+}
+.buy{
+    display: inline-block;
+}
+.buy1{
+    display:inline;
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+.sneak{
+    height: 150px;
+}
+
+#icon {
+    height: 25px;
+}
+
+#icon-cart{
+    height:15px;
+}
+
+#rev-button{
+    margin-left:140px;
+    margin-top: 20px;
+}
+#Recommended{
+    text-align: center;
+    background-color: #F9E8EF;
+    padding: 15px;
+}
