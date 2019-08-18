@@ -40,9 +40,18 @@
     margin-bottom: 100px;
 }
 
+.advertize{
+    background:linear-gradient(90deg, rgba(223,4,120,1) 26%, rgba(255,0,0,1) 100%);
+}
 .sneak{
     height: 150px;
 }
+
+.sneakad{
+    display: inline-block;
+    margin-left: 165px;
+}
+
 
 #icon {
     height: 25px;
@@ -60,4 +69,6 @@
     text-align: center;
     background-color: #F9E8EF;
     padding: 15px;
+    margin-bottom: 0px;
+
 }
