@@ -91,6 +91,7 @@ h1{
 }
 
 .quick-sneaker-img{
+    width: 42em;
     padding-left: 13em;
     margin-right: 2em;
 }
@@ -100,13 +101,21 @@ h1{
     padding-left: 13em;
     color: white;
 }
-.buy{
-    display: inline-block;
+.quick-sneaker-price{
+    display: contents;
     margin-left: 49em;
     margin-bottom: 1em;
 }
 .quick-sneaker-description{
-    display:contents;
+    width: 24em;
+    margin-left: 57em;
+    margin-bottom: 0;
+    line-height: 2.5em;
+}
+
+.quick-sneaker-buy-btn{
+    margin-left: 1em;
+    margin-bottom: 8em;
 }
 
 .main{
