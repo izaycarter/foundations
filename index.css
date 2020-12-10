@@ -6,6 +6,10 @@ h1{
     margin-bottom: -15px;
 }
 
+#nav{
+    margin-bottom: 10px;
+}
+
 .nav{
     display: inline-block;
     font-size: 12px;
@@ -27,12 +31,24 @@ h1{
 
 }
 
+.navLink:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #FFADAD;
+    text-decoration-thickness: .25em;
+    text-underline-offset: 4px;
+}
+
 .navLink a{
     color: inherit;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bolder;
+}
+
+.float-right{
+    display: inline-block;
 }
 
 .Other{
@@ -69,11 +85,12 @@ h1{
 }
 
 .bigShoe{
-    margin-left: 200px;
+    padding-left: 13em;
 }
 
 p.bigShoe{
     padding-bottom: 20px;
+    padding-left: 13em;
     color: white;
 }
 .shoe1{
