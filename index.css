@@ -1,6 +1,10 @@
 html{
     font-family: 'Asap', sans-serif;
 }
+ul{
+    list-style: none;
+}
+
 h1{
     font-size: 50px;
     margin-bottom: -15px;
@@ -105,6 +109,9 @@ h1{
     display: contents;
     margin-left: 49em;
     margin-bottom: 1em;
+    font-family: "Varela Round";
+    font-weight: bold;
+    font-size: 2em;
 }
 .quick-sneaker-description{
     width: 24em;
@@ -160,8 +167,8 @@ h1{
     background-color: #F9E8EF;
     padding: 15px;
     margin-bottom: 0px;
-
 }
+
 #ship{
     border-right: 1px solid;
 }

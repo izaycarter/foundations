@@ -10,6 +10,8 @@ var twoPlusTwo = addNumbers(2,2);
 
 console.log(twoPlusTwo);
 
+
+
 // Exercise 2
 // Write a function called yell that logs out an uppercase version of a string.
 
@@ -51,21 +53,15 @@ longest("hope", "this really works!")
 // function should return false if the character is not a vowel.
 
 function isVowel(string){
-    var vowels =[
-        "a",
-        "e",
-        "i",
-        "o",
-        "u"
 
-    ];
+    var vowels =["a","e","i","o","u"];
+
     for (var i = 0; i < vowels.length; i++ ) {
-        if ( string.toLowerCase() != vowels[i] ) {
-            return false;
-        } else {
+        if ( string.toLowerCase() === vowels[i] ) {
             return true;
-        }
+        } 
     }
+    return false;
 }
 var runVowel = isVowel("a");
 console.log(runVowel);
