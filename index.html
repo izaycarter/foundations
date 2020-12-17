@@ -42,24 +42,24 @@
                 <div class="main">
                     <div>
                         <ul>
-                            <li class="buy navLink"><a href="#">Product details</a></li>
-                            <li class="buy navLink"><a href="#">Size & Fit</a></li>
-                            <li class="buy navLink reviews-container"><a href="#">Reviews ★★★★☆</a></li>
+                            <li onclick="showDetails()" class="buy navLink"><a href="#">Product details</a></li>
+                            <li onclick="showSize()" class="buy navLink"><a href="#">Size & Fit</a></li>
+                            <li onclick="showReview()" class="buy navLink reviews-link"><a href="#">Reviews ★★★★☆</a></li>
                         </ul>
 
                     </div>
-                    <section class="shoe-detail-container">
-                        <div>
+                    <section>
+                        <div id="shoe-detail-container">
                             <h2>Exciting topic</h2>
                             <p class="article"> Content Here</p>
                             <h3>Exciting Topic</h3>
                             <p class="article"> Content here</p>
                         </div>
-                        <div>
+                        <div id="shoe-size-container" style="display: none;">
                             <h2>Find Your Shoe Size & Fit</h2>
                             <p class="article"> Content Here</p>
                         </div>
-                        <div>
+                        <div id="reviews-container" style="display: none;">
                             <h2>What our Customers Are Saying!</h2>
                             <p class="article">Dont take our word for it! Read what customers have been saying about this product. We guarentee you won't be dissapointed in your purchuse.</p>
                         </div>
